@@ -1,7 +1,6 @@
-const url = "";
-const client = undefined;
+const env = require("dotenv");
 
-const dbName = "";
+env.config();
 
 const connectDB = undefined;
 
